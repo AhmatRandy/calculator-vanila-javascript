@@ -35,8 +35,24 @@
 			<div class="flex-row">
 				<div class="button clear">CE</div>
 				<div class="button">0</div>
-				<div class="button equals double">=</div>
+				<div class="button equals">=</div>
+				<div class="button operator">x</div>
 			</div>
+		</div>
+
+		<div class="history card">
+			<h2>Riwayat Perhitungan</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Angka Pertama</th>
+						<th>Operator</th>
+						<th>Angka Kedua</th>
+						<th>Hasil</th>
+					</tr>
+				</thead>
+				<tbody id="historyList"></tbody>
+			</table>
 		</div>
 		<script src="/calculator/javascript/script.js"></script>
 	</body>
