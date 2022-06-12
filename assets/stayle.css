@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.result {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	height: 200px;
+	font-size: 1.8rem;
+	background: #000;
+}
+
+header h1 {
+	text-align: center;
+	margin-top: 50px;
+	text-transform: uppercase;
+	color: #020302;
+}
+
+.container {
+	border-radius: 2px;
+	padding: 3px;
+	max-width: 900px;
+	margin: 0 auto;
+	color: #fff;
+	text-align: right;
+}
+.card {
+	background: white;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	cursor: pointer;
+	flex-basis: 25%;
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 40px;
+	border: 1px solid #000000;
+	color: #000;
+	background: rgb(182, 177, 177);
+}
+.button:hover {
+	background: #706d6d;
+}
+.double {
+	flex-basis: 50%;
+}
+
+.operator,
+.double {
+	background-color: #e39715;
+}
+
+@media screen and (max-width: 513px) {
+	.button {
+		padding: 10px;
+	}
+}
